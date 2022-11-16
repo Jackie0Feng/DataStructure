@@ -1,12 +1,19 @@
 ﻿#include <iostream>
 #include"SqList.h"
-#include"SqList.cpp"
+#include"Introduction.h"
 
 using namespace std;
-using namespace SqList;
+
+long fu(long x, string& s) {
+	s = __func__;
+	return 100;
+}
 
 int main()
 {
-	cout << str;
+	Introduction introduction;
+	introduction.main();
+	//introduction.ShowFuncTimeCost(1, fu);
+
 	return 0;
 }
