@@ -71,4 +71,12 @@ public:
 	/// </summary>
 	void Swap(T& a, T& b);
 
+	//**********************查找算法************************
+
+	/// <summary>
+	/// 折半查找
+	/// 每次查找
+	/// </summary>
+	int BinSearch(T value)
+
 };

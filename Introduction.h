@@ -60,8 +60,6 @@ public:
 	/// 返回1~n阶乘的和
 	/// </summary>
 	long GetFactorialSum2(long n);
-
-
 };
 
 
