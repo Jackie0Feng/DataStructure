@@ -32,7 +32,5 @@ int main()
 	//introduction.ShowFuncTimeCost(1, fu);
 
 	SqListMain();
-
-
 	return 0;
 }

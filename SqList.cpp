@@ -133,7 +133,7 @@ void SqList<T>::Partition1()
 	{
 		while (i < j && data[j] >= pivot)//找到小于基准的后方元素
 			j--;
-		while (data[i] <= pivot)//找到大于基准的前方元素
+		while (i < j && data[i] <= pivot)//找到大于基准的前方元素
 			i++;
 		Swap(data[j], data[i]);
 	}
@@ -146,6 +146,17 @@ void SqList<T>::Swap(T& a, T& b)
 	T temp = a;
 	a = b;
 	b = temp;
+}
+
+template<typename T>
+int SqList<T>::BinSearch(T value)
+{
+	int low = 0, high = length - 1, mid;
+	while (low <= high)
+	{
+		mid = (low + high) / 2;
+	}
+	return 0;
 }
 
 

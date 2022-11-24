@@ -75,8 +75,8 @@ public:
 
 	/// <summary>
 	/// 折半查找
-	/// 每次查找
+	/// 在区间里不断查找对比中间的数，若相等则跳出，不相等则缩小区间继续查找
 	/// </summary>
-	int BinSearch(T value)
+	int BinSearch(T value);
 
 };
